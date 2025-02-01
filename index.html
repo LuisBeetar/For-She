@@ -4,174 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
     <title>Carta para ti</title>
-    <style>
-        body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    
-    background: linear-gradient(135deg, #3286e7 0%, hsl(219, 100%, 79%) 100%);
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.gift {
-    display: none;
-}
-
-.initial-gift-message {
-    display: none;
-    font-size: 3vh;
-    font-weight: 520;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    margin-top: 20px;
-    width: 100%;
-}
-
-@keyframes pop-in {
-    0% {
-        transform: scale(0) rotate(180deg);
-    }
-
-    100% {
-        transform: scale(1) rotate(360deg);
-    }
-}
-
-
-input[type="radio"] {
-    display: none;
-}
-
-#gift1:checked~.container .initial-gift-message {
-    display: block;
-}
-
-.dibujo {
-    width: 50vh;
-    height: 30vh;
-}
-
-.carta {
-    position: relative;
-    bottom: 10vh;
-    left: 5vh;
-}
-
-.boton {
-    width: 20vh;
-    height: 5vh;
-    border: 1px solid rgba(25, 0, 167, 0.664);
-    background-color: #ff6f61;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    font-size: 2.5vh;
-}
-
-.boton:hover {
-    background-color: #ff9c93;
-    cursor: pointer;
-}
-
-.small-gift-message {
-    display: none;
-    font-size: 200px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-
-    animation: pop-in 2s;
-}
-
-.texto-small-gift-message {
-    display: none;
-    font-size: 3vh;
-    font-weight: 520;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
-    margin-top: 20px;
-    width: 100%;
-
-}
-
-.small-gift-message:hover {
-    cursor: pointer;
-}
-
-#boton1:checked~.container .initial-gift-message,
-#small-gift-message:checked~.container .initial-gift-message {
-    display: none;
-}
-
-#boton1:checked~.container .dibujo,
-#small-gift-message:checked~.container .dibujo {
-    display: none;
-}
-
-#boton1:checked~.container .texto-small-gift-message,
-#small-gift-message:checked~.container .texto-small-gift-message {
-    display: none;
-}
-
-#boton1:checked~.container .small-gift-message,
-#boton1:checked~.container .texto-small-gift-message {
-    display: block;
-}
-
-#boton1:checked~.container .boton,
-#small-gift-message:checked~.container .boton {
-    display: none;
-}
-
-#small-gift-message:checked~.container .mensajeFinal {
-    display: flex;
-}
-
-
-.mensajeFinal {
-    width: 140vh;
-    height: 90vh;
-    border: 4px solid rgb(80, 94, 155);
-    border-radius: 10px;
-    background-color: #e9eaff;
-    color: black;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
-
-.textoCarta {
-    font-size: 3vh;
-    text-align: center;
-}
-
-.textoPd {
-    font-size: 2.4vh;
-}
-    </style>
 </head>
 
 <body onclick="PlayAudio()">
@@ -205,30 +39,28 @@ input[type="radio"] {
                 en la carta para abrir</label>
             <div class="mensajeFinal" id="mensajeFinal">
                 <span class="textoCarta">
-                        Querida Mary,<br><br>
-                        
-                        Ante todo, quiero que sepas cuán feliz estoy de haberte conocido. Tu presencia en mi vida ha sido como un rayo de luz, iluminando incluso los días más oscuros. Cada momento compartido, cada risa, cada conversación, se ha convertido en un tesoro que guardaré siempre en mi corazón.<br><br>
-                        
-                        Aunque sé que en este momento no podemos estar juntos, y eso duele, no puedo dejar de agradecer todo lo que me has dado. Gracias a ti, no solo volví a sentir el amor, sino que también encontré una fuerza interior que no sabía que tenía. Me has ayudado a seguir adelante, a creer en mí mismo y a enfrentar la vida con renovado optimismo.<br><br>
-                        
-                        El dolor de nuestra situación actual aún persiste, y aunque no busco a nadie más, quiero que sepas que siempre habrá un lugar especial para ti. Si el destino decide reunirnos de nuevo, la puerta estará abierta. Sin embargo, esta vez, necesitaré que me demuestres que podemos superar los obstáculos que nos separaron.<br><br>
-                        
-                        No es un adiós, sino un "hasta pronto" lleno de gratitud y esperanza. Pase lo que pase, llevaré conmigo la fortaleza que me has dado y los hermosos recuerdos que hemos creado juntos. Gracias por enseñarme que puedo amar, ser amado, y sobre todo, que puedo ser más fuerte de lo que jamás imaginé.<br><br>
-                        
-                        Que la vida te sonría siempre, como tú me has hecho sonreír a mí. <br><br>
-
-                        Con cariño y gratitud, Sapi<br><br>
+                        Espero que estes teniendo un gran dia. no quiero tomar mucho tu tiempo, Pero ya que puedo hacer uso de esto para escribirte pues te quise hacer esta carta.
+                        <br>
+                        <br>
+                        Se que esto puede parecer algo inesperado, No se di te gusta la tecnologia o la creatividad,
+                        Mas alla del codigo y los proyectos, Desde que te conoci, hay algo en ti que me ha llamado la atencion de una manera unica. No hablo solo de lo que se ve a simple vista (Aunque seria imposible ignorarlo), sino de esa esencia que parece rodearte, como si llevaras contigo una luz propia.
+                        <br>
+                        <br>
+                        No se mucho sobre ti aun, pero me gustaria cambiar eso. Me gustaria saber que te hace sonreir, que te emociona y que sueñas con hacer en este mundo. Tal vez esta carta virtual sea solo el inicio de una conversacion, o tal vez de algo mas bonito. Eso solo el tiempo lo dira.
+                        <br>
+                        <br>
+                        Por ahora, solo queria tomar este pequeño momento para escribirte y dejarte saber que, en este mundo tan grande y lleno de ruido, hay alguien que piensa que eres especial.
+                        <br>
+                        <br>
                 </span>
                 <span class="textoPd">
-                    La Cancion Se llama "When I´m Gone - Ganja White Night" 
-                    <br>
-                    Traduce La Cancion Asta El minuto 0:55
+                    By: Tu Papito Chulo JSjsjsjsjsj
                 </span>
             </div>
         </div>
     </div>
-    <audio id="musica1" loop controls>
-        <source src="music/WIM.mp3" type="audio/mpeg">
+    <audio id="musica1" loop>
+        <source src="music/SOF.mp3" type="audio/mpeg">
         El Navegador No Soporta La Musica
     </audio>
     <script src="script.js"></script>
