@@ -81,6 +81,15 @@ input[type="radio"] {
     font-size: 2.5vh;
 }
 
+.Secreto {
+    color: #e9eaff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 7vh;
+}
+
 .boton:hover {
     background-color: #ff9c93;
     cursor: pointer;
