@@ -82,7 +82,7 @@ input[type="radio"] {
 }
 
 .Secreto {
-    color: Blue;
+    color: rgba(38, 0, 255, 0.133);
     display: flex;
     justify-content: center;
     align-items: center;
